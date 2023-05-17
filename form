@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://www.google.com">
+	    <p><input type="text" placeholder="Name" required/></p>
+	    <p><input type="password" placeholder="Password"/></p>
+	    <p><input type="email" placeholder="enter email id"/></p>
+	    <p><input type="number" placeholder="Number"/></p>
+	    <p>Select your DOB: <input type="date"/></p>
+	    <p>
+	        <input value="male" name="gender" type="radio" /> Male
+	        <input value="female" name="gender" type="radio"/>Female
+	    </p>
+	    <p>
+	        <select>
+	            <option value="select a car">select a car</option>
+	            <option value="Tesla">Tesla</option>
+	            <option value="benz">benz</option>
+	            <option value="Ferrari">Ferrari</option>
+	            <option value="Rolls-Royce">Rolls-Royce</option>
+	        </select>
+	    </p>
+	    <p>
+	        <button>submit</button>
+	    </p>
+    </form>
+</body>
+</html>
